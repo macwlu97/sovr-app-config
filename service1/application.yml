@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.100:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    hostname: 192.168.0.100
+    appname: SERVICE1
+    # Opcjonalnie: Można dodać inne ustawienia, np. port, ale zależy to od Twoich potrzeb.
+
